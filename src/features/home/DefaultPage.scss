@@ -1,0 +1,258 @@
+.detail-page{
+  width: 100%;
+  height: 100%;
+}
+.detail-page .header{
+  padding: 40px;
+  text-align: center;
+
+}
+.detail-page .header .header-title{
+  font-size: 3em;
+  font-weight: 900;
+}
+.detail-page .body{
+  width: 96%;
+  height: 450px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  background-color:#EEEEEE;
+  padding: 10px;
+  border: 10px
+}
+.detail-page .body .left-block{
+    width: 98%;
+    height: 100%;
+}
+.detail-page .body .left-block .top{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border: 1em;
+  }
+  .detail-page .body .left-block .top .header-btn{
+    width: 100%;
+    height: 10%;
+    font-family: normal;
+    text-indent: 22px;
+    margin-top:5px;
+    color: gray
+  }
+  .detail-page .body .left-block .top .container-play{
+    margin-top: 8px;
+    width: 96%;
+    height: 30px;
+    margin-left: 22px;
+  }
+  .detail-page .body .left-block .top .container-play .btn-container{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin:auto;
+    background-color: #3399FF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white
+
+  }
+  .detail-page .body .left-block .top .container-hashtag{
+    width: 100%;
+    height: 6%;
+    margin-top: 10px;
+  }
+  .detail-page .body .left-block .top .container-hashtag .btn-hashtag{
+    border-radius: 5px;
+    margin-left: 22px;
+    background-color: #EEEEEE
+  }
+  .detail-page .body .left-block .top .container-datetime{
+    display: grid;
+    grid-template-columns: 85% 3% 13%;
+    width: 100%;
+    height: 6%;
+  }
+  .detail-page .body .left-block .top .container-datetime .item1{
+    width:100%;
+  }
+  .detail-page .body .left-block .top .container-datetime .item{
+    width: 100%;
+    height: 6%;
+    color: gray
+  }
+ 
+  .detail-page .body .left-block .top .info-container{
+    display: grid;
+    width: 100%;
+    height: 10%;
+    grid-template-columns: 2% 14% 2% 14% 2% 14% 2% 14% 2% 2% 2% 2% 2% 2%;
+    margin-left:22px;
+    margin-top: 20px
+  }
+  .detail-page .body .left-block .top .info-container .item{
+    width: 10px;
+    height: 10px;
+  }
+  .detail-page .body .left-block .top .info-container .title{
+    width: 100%;
+    height: 10px;
+    font-size: 15px;
+    font-style: normal;
+    color: gray
+  }
+
+  .detail-page .body .left-block .top .container{
+    display: grid;
+    width: 100%;
+    height: 10%;
+    grid-template-columns: 80% 4% 4% 4% 4% 4%;
+    display: grid;
+    border-top: 10px solid white;
+  }
+  .detail-page .body .left-block .top .container .title{
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: 800;
+
+
+  }
+  .detail-page .body .left-block .top .container .icon{
+    width: 16px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+.detail-page .body .left-block .bot{
+    width: 100%;
+    height: 46%;
+    border: white;
+    margin-top: 15px;
+    border: 15px;
+    background-color: white;
+    
+
+}
+.detail-page .body .left-block .bot .container{
+    width: 100%;
+    height: 10%;
+    border-top: 10px solid white;
+   
+  }
+  .detail-page .body .left-block .bot .container .title{
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .detail-page .body .left-block .bot .info-container{
+    display: grid;
+    width: 100%;
+    height: 10%;
+    grid-template-columns: 8% 70% 16%;
+    margin-left:22px;
+    margin-top: 30px;
+  }
+  .detail-page .body .left-block .bot .info-container .item{
+    width: 40px;
+    height: 40px;
+  }
+  .detail-page .body .left-block .bot .info-container .item1{
+    width: 15px;
+    height: 15px;
+    
+  }
+  .detail-page .body .left-block .bot .line{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 94%;
+    height: 1px;
+    background-color: #EEEEEE
+    
+  }
+  .detail-page .body .left-block .bot .info-container .title{
+    width: 100%;
+    height: 10px;
+    font-size: 20px;
+    font-style: normal;
+    color: gray
+  }
+.detail-page .body .right-block{
+  width: 100%;
+  height: 99%;
+  border: white;
+  background-color: white;
+}
+.detail-page .body .right-block .container{
+  width: 100%;
+  height: 10%;
+  border-top: 10px solid white;
+ 
+}
+.detail-page .body .right-block .container .title{
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.detail-page .body .right-block .info-container{
+  display: grid;
+  width: 100%;
+  height: 10%;
+  grid-template-columns: 10% 10% 55% 7% 8%;
+  margin-left:10px;
+  margin-top: 15px;
+}
+.detail-page .body .right-block .info-container .title{
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+.detail-page .body .right-block .info-container .title1{
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+  color: gray
+}
+.detail-page .body .right-block .info-container .title2{
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+  color: red
+}
+.detail-page .body .right-block .info-container .title3{
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+}
+.detail-page .body .right-block .info-container .item-Gold{
+  width: 5px;
+  height: 5px;
+  color: gold
+}
+.detail-page .body .right-block .info-container .item-Silver{
+  width: 5px;
+  height: 5px;
+  color: silver
+}
+.detail-page .body .right-block .info-container .item-Bronze{
+  width: 5px;
+  height: 5px;
+  color: #CDB38B
+}
+.detail-page .body .right-block .info-container .item1{
+  margin-left:5px;
+  width: 30px;
+  height: 30px;
+}
+.detail-page .body .right-block .info-container .item{
+  width: 5px;
+  height: 5px;
+  color: #3399FF
+
+}
